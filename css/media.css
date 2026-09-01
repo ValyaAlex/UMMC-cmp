@@ -1,0 +1,894 @@
+@media (max-width: 1450px) {
+
+    .team .swiper-button-next,
+    .team .swiper-rtl .swiper-button-prev {
+        right: 4.5%;
+    }
+
+    .team .swiper-button-prev,
+    .team .swiper-rtl .swiper-button-next {
+        right: 8%;
+    }
+}
+
+@media (max-width: 1350px) {
+
+    .hero__flex {
+        flex-direction: column;
+    }
+
+    .hero__left {
+        width: 100%;
+    }
+
+    .hero__right {
+        width: 100%;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .hero__right .hero-card {
+        width: 48%;
+        min-height: 250px;
+        height: 100%;
+        position: relative;
+    }
+
+    .hero__card-left,
+    .hero__card-right {
+        width: 48%;
+    }
+
+    .hero__parent:hover .hero__banner-mask,
+    .parent--active .hero__banner-mask {
+        mask-size: 200% 300%;
+        mask-position: left -400px top -320px;
+    }
+
+    .hero__picture {
+        width: 250px;
+    }
+
+    .hero-card:hover .hero__img {
+        mask-position: right -210px bottom -80px;
+        mask-size: 170% 150%;
+        text-align: right;
+    }
+
+    .hero-card {
+        overflow: hidden;
+    }
+
+    .services__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services__grid .item-2 {
+        grid-column: 1;
+        grid-row: 10 / span 4;
+    }
+
+    .services__grid .item-5 {
+        grid-column: 2;
+        grid-row: 10 / span 4;
+    }
+
+    .services__grid .item-7 {
+        grid-column: 1;
+        grid-row: 14 / span 4;
+    }
+
+    .services__grid .item-9 {
+        grid-column: 2;
+        grid-row: 14 / span 4;
+    }
+
+    .services__grid .item-8 {
+        grid-column: 1;
+        grid-row: 18 / span 4;
+    }
+
+    .services__grid .item-11 {
+        grid-column: 2;
+        grid-row: 18 / span 4;
+    }
+
+    .services__grid .item-12 {
+        grid-column: 1;
+        grid-row: 22 / span 4;
+    }
+
+    .services__grid .item-10 {
+        grid-column: 2;
+        grid-row: 22 / span 4;
+    }
+
+    .services__grid .item-13 {
+        grid-column: 1 / span 2;
+    }
+
+    .services__grid .item-2::before {
+        bottom: 86px;
+    }
+
+    .team__cards,
+    .team-children__cards {
+        height: 430px;
+    }
+
+    .team .swiper-slide-active {
+        width: 330px !important;
+    }
+
+    .team .swiper-button-next,
+    .team .swiper-rtl .swiper-button-prev {
+        right: 2.5%;
+    }
+
+    .team .swiper-button-prev,
+    .team .swiper-rtl .swiper-button-next {
+        right: 7%;
+    }
+
+    .here__flex {
+        flex-direction: column;
+    }
+
+    .here__left {
+        width: 80%;
+    }
+
+    .here__right {
+        width: 100%;
+    }
+
+    .here .swiper-button-next,
+    .here .swiper-rtl .swiper-button-prev {
+        right: auto;
+        left: 119%;
+    }
+
+    .here .swiper-button-prev,
+    .here .swiper-rtl .swiper-button-next {
+        right: auto;
+        left: 112%;
+    }
+
+    .car__flex {
+        position: relative;
+        align-items: start;
+    }
+
+    .car__flex .title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 305px;
+    }
+
+    .car__flex .title:nth-of-type(2) {
+        left: auto;
+        right: 40px;
+    }
+
+    .car__ill {
+        width: 100%;
+        text-align: center;
+        background-position: center center;
+        padding-right: 25px;
+    }
+
+    .algorithm__block {
+        flex-wrap: wrap;
+    }
+
+    .algorithm__can,
+    .algorithm__cannot {
+        width: 48%;
+    }
+
+    .algorithm__sos {
+        width: 100%;
+    }
+
+    .algorithm__text {
+        width: 100%;
+    }
+}
+
+@media (max-width:1025px) {
+    .reviews__flex {
+        display: none;
+    }
+
+    .swiper-reviews {
+        display: block;
+    }
+
+    .reviews__container-swiper {
+        overflow: visible;
+        position: relative;
+    }
+
+    .reviews__container-swiper {
+        display: block;
+    }
+
+    .swiper-reviews {
+        height: 420px;
+        margin-bottom: 32px;
+    }
+
+    .reviews__item {
+        min-height: 200px;
+        height: 84%;
+    }
+
+    .reviews__container-swiper .swiper-button-next,
+    .reviews__container-swiper .swiper-button-prev {
+        top: -45px;
+        width: 38px;
+        height: 38px;
+        border: 1px solid #e2e9ed;
+        border-radius: 50%;
+    }
+
+    .reviews__container-swiper .swiper-button-prev,
+    .reviews__container-swiper .swiper-rtl .swiper-button-next {
+        right: 8%;
+        left: auto;
+    }
+
+    .reviews__container-swiper .swiper-button-next,
+    .reviews__container-swiper .swiper-rtl .swiper-button-prev {
+        right: 2.5%;
+    }
+
+    .reviews__container-swiper .swiper-button-next:after,
+    .reviews__container-swiper .swiper-rtl .swiper-button-prev:after,
+    .reviews__container-swiper .swiper-button-prev:after,
+    .reviews__container-swiper .swiper-rtl .swiper-button-next:after {
+        content: "";
+        display: block;
+        width: 6px;
+        height: 10px;
+        background-image: url(../icon/black-shevron.svg);
+        background-size: 6px 10px;
+        background-position: center;
+    }
+
+    .reviews__container-swiper .swiper-button-prev:after,
+    .reviews__container-swiper .swiper-rtl .swiper-button-next:after {
+        transform: rotate(180deg);
+    }
+
+    .reviews__container-swiper .swiper-free-mode>.swiper-wrapper {
+        transition-timing-function: linear;
+    }
+
+    .team .swiper-slide-active {
+        width: 300px !important;
+    }
+
+    .questions .ac .ac-header {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:835px) {
+    .body {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .header__container {
+        justify-content: space-between;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .btn--active {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        white-space: nowrap;
+    }
+
+    .hero__cards-flex .title {
+        white-space: wrap;
+    }
+
+    .hero__right {
+        display: none;
+    }
+
+    .hero__parent:hover .hero__banner-mask,
+    .parent--active .hero__banner-mask {
+        mask-position: left -400px top -330px;
+        padding-bottom: 24px;
+        padding-left: 32px;
+    }
+
+    .hero__banner-content {
+        bottom: 24px;
+        left: 32px;
+    }
+
+    .hero-card .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .services__text {
+        display: none;
+    }
+
+    .modal {
+        height: fit-content;
+        width: 90%;
+    }
+
+    .services__grid {
+        gap: 16px;
+    }
+
+    .services__name {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .hero__card-description {
+        font-size: 14px;
+    }
+
+    .services__for-childs,
+    .services__for-adults {
+        font-size: 10px;
+        line-height: 16px;
+        padding: 2px 8px;
+    }
+
+    .services__item:not(:first-of-type) {
+        padding: 24px 32px;
+        overflow: hidden;
+    }
+
+    .services__grid .item-2::after {
+        bottom: -12px;
+        right: -18px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .services__grid .item-6::after {
+        right: -25px;
+        width: 196px;
+        height: 120px;
+    }
+
+    .services__grid .item-11::after {
+        bottom: 10px;
+        right: 20px;
+        width: 125px;
+        height: 124px;
+    }
+
+    .services__item:last-child {
+        padding: 5px;
+        border: none;
+    }
+
+    .services__grid .item-2::before {
+        bottom: 15px;
+        right: -58px;
+        width: 140px;
+    }
+
+    .services__grid .item-5::before {
+        top: -4px;
+        right: -49px;
+        width: 125px;
+    }
+
+    .services__grid .item-8::before {
+        top: -25px;
+        right: -41px;
+        width: 120px;
+    }
+
+    .services__grid .item-3::before {
+        right: -67px;
+        width: 165px;
+    }
+
+    .team__cards,
+    .team-children__cards {
+        height: 500px;
+    }
+
+    .team .swiper-slide-active {
+        width: 45% !important;
+    }
+
+    .team .swiper-button-prev,
+    .team .swiper-rtl .swiper-button-next {
+        right: 9.5%;
+    }
+
+    .here .swiper-button-next,
+    .here .swiper-rtl .swiper-button-prev {
+        left: 117%;
+    }
+
+    .here .swiper-button-prev,
+    .here .swiper-rtl .swiper-button-next {
+        left: 107%;
+    }
+
+    .car__flex .title:nth-of-type(2) {
+        right: 0px;
+        bottom: 0;
+        top: auto;
+    }
+
+    .car__ill {
+        padding: 60px 25px 60px 0;
+        background-size: 500px 400px;
+    }
+
+    .car__img {
+        width: 520px;
+    }
+
+    .car .title {
+        font-size: 32px;
+        line-height: 38px;
+        max-width: 160px;
+    }
+
+    .algorithm__can .title,
+    .algorithm__cannot .title,
+    .algorithm__sos .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .algorithm__text {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 24px 32px;
+    }
+
+    .reviews__container-swiper .swiper-button-prev,
+    .reviews__container-swiper .swiper-rtl .swiper-button-next {
+        right: 9.5%;
+    }
+
+    .reviews__all {
+        background-size: 15px 15px;
+    }
+
+    .questions .ac .ac-header {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .questions__text {
+        max-width: 100%;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .algorithm__content.swiper-algorithm.algorithm--active,
+    .algorithm__content-child.swiper-algorithm-child.algorithm--active {
+        display: block;
+        width: 100%;
+    }
+
+    .algorithm__block {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .algorithm__can,
+    .algorithm__cannot,
+    .algorithm__sos,
+    .algorithm__text {
+        width: auto;
+        padding: 24px 32px;
+    }
+
+
+
+}
+
+@media (max-width:690px) {
+    .hero__banner {
+        background-image: url(../img/banner-mobile.png);
+        padding-top: 260px;
+    }
+
+    .hero__parent:hover .hero__banner-mask,
+    .parent--active .hero__banner-mask {
+        mask-position: left -185px top -330px;
+    }
+
+    .hero__banner-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero__banner-title {
+        gap: 45px;
+    }
+
+    .hero__banner-title .title {
+        font-size: 96px;
+        line-height: 86px;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .hero__banner-title .title::after {
+        font-size: 12px;
+        line-height: 18px;
+        bottom: auto;
+        top: 100%;
+    }
+
+    .hero__banner-title .title:nth-child(2)::after {
+        width: 100px;
+    }
+
+    .hero__cards-flex {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .hero__card-left,
+    .hero__card-right {
+        width: 100%;
+        padding: 24px 32px;
+    }
+
+    .hero__cards-flex .hero__card-description {
+        display: none;
+    }
+
+    .services__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services__item {
+        width: 100%;
+    }
+
+    .services__item.item-2 {
+        order: 7;
+    }
+
+    .services__item.item-3 {
+        order: 0;
+    }
+
+    .services__item.item-4 {
+        order: 3;
+    }
+
+    .services__item.item-5 {
+        order: 6;
+    }
+
+    .services__item.item-6 {
+        order: 5;
+    }
+
+    .services__item.item-7 {
+        order: 8;
+    }
+
+    .services__item.item-8 {
+        order: 10;
+    }
+
+    .services__item.item-9 {
+        order: 9;
+    }
+
+    .services__item.item-10 {
+        order: 13;
+    }
+
+    .services__item.item-11 {
+        order: 11;
+    }
+
+    .services__item.item-12 {
+        order: 12;
+    }
+
+    .services__item.item-13 {
+        order: 14;
+    }
+
+    .text-none {
+        display: none;
+    }
+
+    .team .swiper-button-prev,
+    .team .swiper-rtl .swiper-button-next {
+        display: none;
+    }
+
+    .team .swiper-button-next,
+    .team .swiper-rtl .swiper-button-prev {
+        display: none;
+    }
+
+    .team__header {
+        gap: 8px;
+    }
+
+    .slider:before {
+        width: 116px;
+    }
+
+    .switch {
+        width: 210px;
+    }
+
+
+    .switch-descr {
+        right: auto;
+        left: 12px;
+        gap: 18px;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(110px);
+        -ms-transform: translateX(110px);
+        transform: translateX(110px);
+        width: 100px;
+    }
+
+    .team .swiper-slide-active {
+        width: 90% !important;
+    }
+
+    .team__info {
+        padding: 24px 32px;
+    }
+
+    .team__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .here__flex {
+        padding: 24px 32px;
+    }
+
+    .here__left {
+        width: 100%;
+    }
+
+    .here__btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .here__button {
+        width: fit-content;
+    }
+
+    .here__button {
+        font-size: 14px;
+    }
+
+
+    .here .swiper-button-prev,
+    .here .swiper-rtl .swiper-button-next {
+        display: none;
+    }
+
+    .here .swiper-button-next,
+    .here .swiper-rtl .swiper-button-prev {
+        display: none;
+    }
+
+    .here__card {
+        height: 100%;
+    }
+
+
+    .here .swiper-slide-active {
+        width: 90% !important;
+    }
+
+    .car__img {
+        width: 370px;
+    }
+
+    .car__ill {
+        background-size: 350px 300px;
+    }
+
+    .car__flex {
+        margin-bottom: 40px;
+    }
+
+    .algorithm .title {
+        margin-bottom: 8px;
+    }
+
+    .algorithm__header {
+        flex-direction: column;
+        gap: 8px;
+        align-items: start;
+    }
+
+    .algorithm__description {
+        max-width: 100%;
+    }
+
+    .algorithm__list {
+        padding-left: 15px;
+        margin: 0;
+    }
+
+    .algorithm__can,
+    .algorithm__cannot,
+    .algorithm__sos,
+    .algorithm__text {
+        height: 92.5%;
+        padding: 20px 20px;
+    }
+
+    .reviews__container-swiper .swiper-button-prev,
+    .reviews__container-swiper .swiper-rtl .swiper-button-next {
+        display: none;
+    }
+
+    .reviews__container-swiper .swiper-button-next,
+    .reviews__container-swiper .swiper-rtl .swiper-button-prev {
+        display: none;
+    }
+
+    .reviews__name {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .swiper-reviews {
+        height: 355px;
+    }
+
+    .questions .ac .ac-trigger {
+        padding: 24px 32px;
+    }
+
+    .questions .ac .ac-panel .ac-text {
+        padding: 20px 32px;
+    }
+
+    .header__logo-big {
+        display: none;
+    }
+
+    .header__logo-small {
+        display: block;
+        height: 56px;
+        width: 52px;
+    }
+
+    .modal .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .modal__btns {
+        flex-direction: column;
+    }
+
+    .modal-close,
+    .modalSOS {
+        width: 100%;
+        white-space: nowrap;
+        padding: 8px 12px;
+    }
+
+    .modal__sos-text:nth-of-type(1)::after {
+        left: 90%;
+    }
+
+    .modal__sos-text:nth-of-type(1)::before {
+        left: 80%;
+    }
+
+    .modal__sos-text:nth-of-type(2)::before {
+        left: -10%;
+    }
+
+    .modal__sos-text:nth-of-type(2)::after {
+        left: -10%;
+    }
+
+}
+
+@media (max-width: 470px) {
+    .here__cards {
+        height: 350px;
+    }
+
+    .car__img {
+        width: 330px;
+    }
+
+    .car__ill {
+        padding: 100px 45px 120px 0px;
+        background-position: left bottom 75px;
+    }
+
+    .modal {
+        padding: 10px;
+    }
+
+    .modal__sos-text:nth-of-type(1),
+    .modal__sos-text:nth-of-type(2) {
+        font-size: 105px;
+    }
+
+    .modal__sos-text:nth-of-type(1)::before {
+        left: 65%;
+    }
+
+    .modal__sos-text:nth-of-type(1)::after {
+        left: 75%;
+    }
+
+    .modal__sos-text:nth-of-type(2)::before {
+        left: 0%;
+    }
+
+    .modal__sos-text:nth-of-type(2)::after {
+        left: 3%;
+    }
+
+    .modal__list,
+    .modal .title {
+        margin-bottom: 10px;
+    }
+
+    .modal__item {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .modal__btns .button {
+        font-size: 14px;
+    }
+
+    .swiper-reviews {
+        height: 380px;
+        margin-bottom: 16px;
+    }
+
+    .reviews__item {
+        height: 87%;
+        padding: 20px;
+    }
+
+    .services__grid .item-2::before {
+        bottom: -2px;
+    }
+}
