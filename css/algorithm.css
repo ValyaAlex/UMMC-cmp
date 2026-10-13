@@ -240,3 +240,7 @@ input:checked+.slider:before {
 .algorithm__content-child.swiper-algorithm-child {
     display: none;
 }
+
+.mobile {
+    display: none;
+}

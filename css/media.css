@@ -222,6 +222,7 @@
     .reviews__item {
         min-height: 200px;
         height: 84%;
+        width: auto;
     }
 
     .reviews__container-swiper .swiper-button-next,
@@ -267,12 +268,30 @@
     }
 
     .team .swiper-slide-active {
+        filter: grayscale(0);
         width: 300px !important;
     }
 
     .questions .ac .ac-header {
         font-size: 22px;
     }
+
+    .team .swiper-slide-active .team__info {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .team .swiper-slide:hover {
+        filter: grayscale(1);
+        width: 300px !important;
+    }
+
+    .team .swiper-slide:hover .team__info {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+
 }
 
 @media (max-width:835px) {
@@ -507,7 +526,9 @@
         padding: 24px 32px;
     }
 
-
+    .mobile {
+        display: block;
+    }
 
 }
 
